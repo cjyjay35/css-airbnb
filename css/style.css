@@ -1,3 +1,75 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #e3e5e8;
+}
+
+p {
+  margin: 0;
+  font-size: 13px;
+}
+
+
+h3 {
+  margin: 1px;
+  font-size: 25px;
+}
+
+
+#container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.textBox  {
+
+}
+
+.imageRow {
+
+  border-width: 10px;
+  padding: 20px;
+
+}
+
+.imageContainer  {
+  display: inline-block;
+
+
+  width: 150px;
+  height: 200px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  position: relative;
+}
+
+.imageContainer h3 {
+  line-height: 200px;
+  color: white;
+  margin: none;
+  font-size: 20px;
+}
+
+.imageContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+}
+
+.buttonContainer  {
+  padding: 30px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+button {
+  padding: 8px 70px 8px 70px;
 }
